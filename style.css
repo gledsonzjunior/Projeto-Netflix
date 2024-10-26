@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+ul {
+	height: 25px;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	position: fixed;
+}
+
+.img-logo,
+.img-avatar {
+	height: 25px;
+	margin-top: 20px;
+}
+
+video {
+	width: 100%;
+	min-height: 80vh;
+}
+
+.capa {
+	position: absolute;
+	bottom: 30%;
+	left: 5%;
+	width: 35%;
+	z-index: 3;
+}
+
+.capa-titulo {
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+.capa-descricao {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.link-assistir {
+	background-color: white;
+	color: black;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link-infos {
+	background-color: rgba(255, 255, 255, 0.35);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.imagem-carrocel {
+	height: 150px;
+}
+
+#carouselExampleControls {
+	background-color: transparent;
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+	width: 57%;
+	align-items: center;
+}
+
+.titulo-carrossel {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.ativar-som {
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	background: url("./assets/img/volume.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.modal {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.modal-infos {
+	width: 500px;
+	height: 300px;
+	background-color: rgb(31, 30, 30);
+	color: white;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20% auto;
+
+	h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
