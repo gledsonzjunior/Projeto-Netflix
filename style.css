@@ -6,7 +6,7 @@ body {
 	background-color: black;
 	padding: 0;
 	margin: 0;
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 }
 
 ul {
@@ -16,6 +16,7 @@ ul {
 	justify-content: space-between;
 	list-style: none;
 	position: fixed;
+	background-color: transparent;
 }
 
 .img-logo,
@@ -27,11 +28,12 @@ ul {
 video {
 	width: 100%;
 	min-height: 80vh;
+	border-style: hidden;
 }
 
 .capa {
 	position: absolute;
-	bottom: 30%;
+	bottom: 45%;
 	left: 5%;
 	width: 35%;
 	z-index: 3;
@@ -59,6 +61,12 @@ video {
 	cursor: pointer;
 	text-decoration: none;
 }
+
+.icon-play {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
 .link-infos {
 	background-color: rgba(255, 255, 255, 0.35);
 	color: white;
@@ -70,21 +78,28 @@ video {
 	text-decoration: none;
 }
 
+.icon-info {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
 .imagem-carrocel {
 	height: 150px;
+	border-radius: 5px;
 }
 
 #carouselExampleControls {
 	background-color: transparent;
 	position: absolute;
-	bottom: 10px;
+	bottom: 80px;
 	left: 50px;
 	width: 57%;
 	align-items: center;
 }
 
 .titulo-carrossel {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 10px;
 	color: white;
@@ -92,15 +107,24 @@ video {
 
 .ativar-som {
 	position: absolute;
-	top: 70px;
-	right: 20px;
+	bottom: 450px;
+	right: 120px;
 	width: 30px;
 	height: 30px;
-	background: url("./assets/img/volume.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	border: none;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 50%;
 	outline: none;
+	cursor: pointer;
+}
+
+.img-volume {
+	width: 25px;
+	height: 25px;
 	cursor: pointer;
 }
 
