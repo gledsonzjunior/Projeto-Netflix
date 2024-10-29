@@ -39,6 +39,11 @@ video {
 	z-index: 3;
 }
 
+.img-round {
+	width: 350px;
+	height: 150px;
+}
+
 .capa-titulo {
 	color: white;
 	font-size: 80px;
